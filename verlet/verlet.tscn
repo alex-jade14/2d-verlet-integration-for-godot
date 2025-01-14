@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk2m5j0gim57i"]
+
+[ext_resource type="Script" path="res://verlet/verlet_with_pinned_points_and_sticks.gd" id="1_2rjp2"]
+
+[node name="Verlet" type="Node2D"]
+script = ExtResource("1_2rjp2")
+
+[node name="Line2D" type="Line2D" parent="."]
